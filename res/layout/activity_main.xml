@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true" 
+    android:background="@drawable/background" 
+    android:gravity="center_horizontal" >
+    
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/rounded_corners" 
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/contactInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/phone"
+        android:textSize="18dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/hackerschool"
+        android:clickable="true"
+        android:onClick="hackOnClick"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contactInfo"
+        android:text="@string/hackerschool_main" 
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+		
+	<TextView 
+	    android:id="@+id/hackerschool_projects"
+	    android:clickable="true"
+	    android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hackerschool"
+        android:text="@string/hackerschool_projects" 
+        android:textSize="18dp" 
+        android:gravity="center_horizontal" />
+	
+	<TextView
+	    android:id="@+id/taste"
+	    android:clickable="true"
+	    android:onClick="tasteOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hackerschool_projects"
+        android:text="@string/taste_main" 
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+	
+	<TextView
+	    android:id="@+id/taste_details"
+	    android:clickable="true"
+	    android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/taste"
+        android:text="@string/taste_details" 
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+	
+	<TextView 
+	    android:id="@+id/unirondack"
+	    android:clickable="true"
+	    android:onClick="unirondackOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/taste_details"
+        android:text="@string/unirondack" 
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+	
+	<TextView 
+	    android:id="@+id/unirondack_details"
+	    android:clickable="true"
+	    android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/unirondack"
+        android:text="@string/unirondack_details" 
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+	<TextView
+	    android:id="@+id/song_of_the_morning"
+	    android:clickable="true"
+	    android:visibility="gone"
+	    android:onClick="songOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/unirondack_details"
+        android:text="@string/song_of_the_morning" 
+        android:textSize="18dp"
+        android:gravity="center" />
+	
+	<TextView 
+	    android:id="@+id/song_of_the_morning_details"
+	    android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/song_of_the_morning"
+        android:text="@string/song_of_the_morning_details" 
+        android:textSize="18dp"
+        android:gravity="center" />
+	
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Aria Moraine</string>
+    <color name="test_background_color">@drawable/background</color>
+    <string name="title_activity_main">Aria Moraine</string>
+    <string name="phone">ariamoraine@gmail.com\nariamoraine.github.com\n(262)501-6673\n@amoraine\n</string>
+    <string name="contact_info">Get in touch. @amoraine ariamoraine@gmail.com</string>
+    <string name="hackerschool_main"><b>Click on each title to view more!\n\n</b><b>Hackerschool:</b> \nStudent June 2012 to December 2012</string>
+    <string name="hackerschool_projects"> <b>Android Projects</b> \nSeasonal Food - Uses AsyncTask to implement web scraping and displays certain data depending on users location and current month. Published to google app store. Knitting Counter - Implements two different counters, and saves users count when destroyed and restarted. Published to google app store. Tip Calculator - Uses onClickListeners to watch for user input. Fresh Mid - Takes the users first and last names and randomly generates two middle names from two different stringArrays. \n<b>Python Projects </b> \nHangman - A console text based remake of hangman. Pickel talk - Local packet server. Using sockets, threading, and pickel. Gobble - A two player desktop game with pygame. </string>
+    <string name="taste_main"><b>Taste: </b>\nPastry chef/cake decorator 2011 to 2013</string>
+    <string name="taste_details">Mixing and baking all batters and cakes, icing cupcakes, making cake pops, decorating cakes, performing weekly inventory, putting together order sheets.</string>
+    <string name="unirondack"><b>Camp Unirondack: </b>\nKitchen Manager Summer of 2010 and 2011\nHead Baker Summer of 2009</string>
+    <string name="unirondack_details">Kitchen Managers Duties included: Interviewing and hiring all kitchen staff. Ordering and maintaining kitchen equipment. Creating all menus for meat eating, vegetarian, vegan, gluten free, lactose intolerant, and other allergies. Ordering all food. Inventorying entire kitchen twice a week. Maintaining a sanitary kitchen. Training all kitchen staff on proper health code. Serving three hot meals a day for over 100 people. Maintaining a budget. Head Bakers Duties Included: Preparing all deserts including vegan and gluten free. Maintaining workstation. Creating dessert menu for each coming week. Working within a budget. Maintaining inventories.</string>
+    <string name="song_of_the_morning"><b>Song of the Morning: </b>\nOctober 2007 to October 2008</string>
+    <string name="song_of_the_morning_details">Preparing lodging for guests. Checking guests in and out. Aiding kitchen manager to stock the kitchen. Preparing desserts. Helping to prepare dinners and breakfasts. Making sure all guests were comfortable. Maintaining a sense of atmosphere for all guests.</string>
+    
+</resources>
